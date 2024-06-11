@@ -13,7 +13,7 @@ import java.util.Map;
 @Controller
 public class HomeController {
 
-    @GetMapping("/home")
+    @GetMapping("/")
     public String home(Model model) {
         model.addAttribute("message", "Welcome to My Website!");
         return "home";
